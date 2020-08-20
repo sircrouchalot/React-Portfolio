@@ -1,0 +1,39 @@
+footer {
+    font-family: "Roboto Condensed", sans-serif;
+    position: fixed;
+    display: inline-block;
+    bottom: 0;
+    margin-top: auto;
+    height: 125px;
+    width: 100%;
+    text-align: center;
+    background-color: #305f63;
+    border-top: 2px solid #0068ad;
+    z-index: 3;
+  }
+  
+  footer h3 {
+    padding-top: 5px;
+  }
+  
+  footer ul {
+    margin: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  footer ul li a {
+    color: white;
+  }
+  
+  .icon {
+      padding: 10px;
+      color: white;
+      
+  }
+  
+  .contact-footer {
+    padding-top: 25px;
+  }

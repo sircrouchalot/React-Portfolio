@@ -1,0 +1,12 @@
+body {
+    overflow: hidden;
+    z-index: -2;
+}
+.caption {
+    background-color: black;
+    opacity: 65%;
+    z-index: 0;
+  }
+.card-transparent {
+    margin: 100px auto;
+}

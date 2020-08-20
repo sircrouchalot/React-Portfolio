@@ -3,23 +3,23 @@ import "./nav.css";
 function Nav() {
   return (
     <section className="container-fluid header">
-      <a class="scroll" href="#welcome">
+      <a href="/">
         <h1>Alex Crouch</h1>
       </a>
       <div>
         <ul>
           <li>
-            <a class="scroll" href="#about">
+            <a  href="/about">
               About Me
             </a>
           </li>
           <li>
-            <a class="scroll" href="#portfolio">
+            <a  href="/portfolio">
               Portfolio
             </a>
           </li>
           <li>
-            <a class="scroll" href="#contact">
+            <a href="/contact">
               Contact
             </a>
           </li>

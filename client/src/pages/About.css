@@ -1,0 +1,37 @@
+.card-transparent {
+  margin: 150px auto;
+}
+
+.card {
+  margin: 50px auto;
+}
+
+.card h4 {
+  border-bottom: 5px solid #0068ad;
+  padding: 20px 0;
+}
+
+.about {
+  margin-bottom: 10px;
+}
+
+.profile {
+  float: left;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .card {
+    margin: 20px auto;
+    width: 100%;
+  }
+  .profile {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
