@@ -4,15 +4,16 @@ import "./About.css";
 function About() {
   return (
     <Row>
-      <Col xs="11" sm="6" className="d-flex p-2 justify-content-center about">
+      <Col xs="12" sm="12" md="6" className="d-flex p-2 justify-content-center about">
         <Media >
           <Media left>
             <Media
               object
               src="../../../Images/headshot.jpg"
               alt="Profile Image"
-              width="275"
-              height="275"
+              width="150"
+              height="150"
+              className="profileImg"
               style={{ borderRadius: "50%", border: "3px solid white" }}
             />
           </Media>

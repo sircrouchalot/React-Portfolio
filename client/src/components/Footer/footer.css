@@ -10,6 +10,7 @@ footer {
     background-color: #305f63;
     border-top: 2px solid #0068ad;
     z-index: 3;
+    clear: both;
   }
   
   footer h3 {
