@@ -1,4 +1,4 @@
-.card-transparent {
+/* .card-transparent {
   margin: 150px auto;
 }
 
@@ -34,4 +34,16 @@
     margin-right: auto;
     width: 80%;
   }
+} */
+
+.mediaBody {
+  margin-left: 25px;
+}
+
+.about {
+  margin: 100px auto;
+  background: rgba(61, 61, 61, 0.212);
+  color: whitesmoke;
+  border-radius: 15px;
+
 }

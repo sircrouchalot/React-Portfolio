@@ -1,32 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+} from "reactstrap";
 import "./nav.css";
-function Nav() {
+
+const NavBar = function(props) {
+
+  const [collapsed, setCollapsed] = useState(true);
+
+  const toggleNavbar = () => setCollapsed(!collapsed);
+
   return (
-    <section className="container-fluid header">
-      <a href="/">
-        <h1>Alex Crouch</h1>
-      </a>
-      <div>
-        <ul>
-          <li>
-            <a  href="/about">
-              About Me
-            </a>
-          </li>
-          <li>
-            <a  href="/portfolio">
-              Portfolio
-            </a>
-          </li>
-          <li>
-            <a href="/contact">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
+    <div>
+      <Navbar color="faded" light expand="md">
+        <NavbarBrand href="/" className="mr-auto">Alex Crouch</NavbarBrand>
+        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+        <Collapse isOpen={!collapsed} navbar>
+          <Nav navbar>
+            <NavItem>
+              <NavLink href="/about">About Me</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/portfolio">My Projects</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/contact">Contact Me</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>
   );
 }
 
-export default Nav;
+export default NavBar;
