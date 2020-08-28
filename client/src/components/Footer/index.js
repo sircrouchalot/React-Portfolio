@@ -23,7 +23,7 @@ function Footer() {
                   ><i className="fas fa-envelope-square icon"></i>Email</a>
               </li>
               <li>
-                <a href="https://drive.google.com/file/d/1s3c14PXevaZMeVvIi29e8kZXJRkyFIp5/view?usp=sharing" rel="noopener noreferrer" target="_blank"
+                <a href="https://drive.google.com/file/d/0B2aCcZowSEoqYWFPZzR4RkxmcWs/view?usp=sharing" rel="noopener noreferrer" target="_blank"
                   ><i className="far fa-file icon"></i>Resume</a>
               </li>
             </ul>
