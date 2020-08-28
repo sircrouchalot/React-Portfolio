@@ -1,7 +1,7 @@
 .carousel {
   margin: 100px auto;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: auto;
 }
 
 .carousel-item > a > img {
@@ -16,4 +16,31 @@
 
 .carousel-caption {
   background-color: rgba(61, 61, 61, 0.527);
+  height: auto;
+  font: 20px;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 576px) {
+  .carousel {
+    margin: 100px auto;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .carousel-item > a > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(61, 61, 61, 0.527);
+  }
+
 }

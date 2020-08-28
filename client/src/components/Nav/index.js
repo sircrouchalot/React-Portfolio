@@ -19,7 +19,7 @@ const NavBar = function(props) {
   return (
     <div>
       <Navbar color="faded" light expand="md">
-        <NavbarBrand href="/" className="mr-auto">Alex Crouch</NavbarBrand>
+        <NavbarBrand href="/" className="mr-auto">Alex Crouch </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
