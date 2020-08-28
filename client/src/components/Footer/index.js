@@ -28,6 +28,7 @@ function Footer() {
               </li>
             </ul>
           </div>
+          <h6>Built using ReactJS</h6>
         </div>
       </footer>
   );
