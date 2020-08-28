@@ -9,7 +9,7 @@ function About() {
           <Media left>
             <Media
               object
-              src="../images/headshot.jpg"
+              src="../../../Images/headshot.jpg"
               alt="Profile Image"
               width="275"
               height="275"
