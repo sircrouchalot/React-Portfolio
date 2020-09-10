@@ -1,0 +1,23 @@
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+  .greeting {
+      margin: 150px auto 0 auto;
+      text-align: center;
+  }
+
+  .greetingSub {
+      text-align: center;
+  }
+  .greetingSub ul {
+      padding: 0;
+  }
+  /* .links li {
+      margin: 0 0 0 2px;
+     
+  } */
+  /* .links li a {
+    color: black;
+  } */
